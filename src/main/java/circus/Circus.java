@@ -44,5 +44,9 @@ public class Circus {
         makeAnimalsTalk();
         System.out.println("Total value of animals " + calculateAssetValue(animals));
         System.out.println("Total value of equipments " + calculateAssetValue(equipments));
+    private static void printAnimalsList(ArrayList<Animal> animalList) {
+        for (Animal a : animalList) {
+            System.out.println(a);
+        }
     }
 }
